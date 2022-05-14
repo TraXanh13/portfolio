@@ -1,0 +1,21 @@
+header {
+    display:flex;
+    margin: 3em; 
+}
+
+nav{
+    margin: auto;
+    margin-right: 0;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size:large;
+    margin-left: 1em;
+}
+
+a:hover {
+    color: blue;
+}
