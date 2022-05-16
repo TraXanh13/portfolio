@@ -9,7 +9,7 @@ body {
 }
 
 #devTools {
-  width: 70%;
+  width: 40%;
   border-radius: 1em;
   margin: auto;
   background-color: white;
@@ -37,14 +37,22 @@ body {
   text-align: center;
 }
 
-aside {
-  width: 40%;
-  margin: 0px;
+.vertLine {
+  border-left: 1px solid black;
+}
+
+.listTitle {
+  color: blueviolet;
 }
 
 p {
-  font-size: large;
   font-weight: bold;
+  font-size: larger;
+}
+
+aside {
+  width: 40%;
+  margin: 0px;
 }
 
 ul {
@@ -54,5 +62,7 @@ ul {
 }
 
 li {
+  font-weight: bold;
+  font-size: large;
   display: list-item;
 }

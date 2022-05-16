@@ -3,6 +3,11 @@ header {
     margin: 3em; 
 }
 
+img {
+    width: 90px;
+    height: 90px;
+  }
+
 nav{
     margin: auto;
     margin-right: 0;
