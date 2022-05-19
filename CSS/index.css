@@ -1,58 +1,34 @@
 body {
-    background: url("../images/The\ Girls.jpg");
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    font-family:'Courier New', Courier, monospace;
+  background: #000C18;
+  color: #1dbb0f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
 }
 
-#devTools {
-  width: 40%;
-  border-radius: 1em;
-  margin: auto;
-  background-color: white;
-  opacity: 0.5;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-#devColumns {
-  display: flex;
-  justify-content: center;
-  gap: 5em;
+main {
+  width: 75%;
+  margin: 7em 15em;
 }
 
-.fullWidth {
-  width: 100%;
-  margin: auto;
-  background-color: white;
-  opacity: 0.5;
+h1 {
+  font-size: 50px;
 }
 
-.centerArticle {
-  width: 60%;
-  margin: auto;
-  margin-bottom: 5em;
-  padding: 2em;
-  text-align: center;
-}
-
-.vertLine {
-  border-left: 1px solid black;
-}
-
-.listTitle {
-  color: blueviolet;
+h2 {
+  font-size: 30px;
+  opacity: 0.75;
 }
 
 p {
   font-weight: bold;
-  font-size: larger;
-}
-
-aside {
-  width: 40%;
-  margin: 0px;
+  font-size: medium;
 }
 
 ul {
@@ -65,4 +41,66 @@ li {
   font-weight: bold;
   font-size: large;
   display: list-item;
+}
+
+section {
+  margin-bottom: 15em;
+}
+
+#devTools {
+  width: 60%;
+  border-radius: 1em;
+  margin: auto;
+  background-color: white;
+}
+
+#devColumns {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+#calendar {
+  display: block;
+  margin: auto;
+}
+
+#aboutMe {
+  width: 80%;
+}
+
+section #aboutMe::after {
+  content: "";
+  width: 6px;
+  height: 16px;
+  background: #1dbb0f;
+  display: inline-block;
+  animation: cursor-blink 1s infinite;
+}
+
+@keyframes cursor-blink {
+  0%{background: #000C18}
+  50% {background: #1dbb0f}
+  100%{background: #000C18}
+}
+
+.centerArticle {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5em;
+  padding: 2em;
+  text-align: center;
+}
+
+.vertLine {
+  border-left: 1px solid #1dbb0f;
+}
+
+.listTitle {
+  color: blueviolet;
+}
+
+.columnContent {
+  width: fit-content;
+  margin: 0px;
 }

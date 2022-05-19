@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/sideNav.css">
     <title>Kyle Duong</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="./images/binoo.jpg" alt="Image"></a>
+        <a id="logo" href="index.html">&lt/><br>Kyle Duong</a>
         <nav>
-            <a href="projects.html">Projects</a>
-            <a href="experience.html">Experience</a>
-            <a href="contact.html">Contact</a>
+            <a href="#experience">Experience</a>
+            <a href="#contactMe">Contact</a>
+            <a href="resume.html" target="_blank">Resume</a>
         </nav>
     </header>
-    <article class="fullWidth">
-        <div class="centerArticle">
-            <h1>Hi, I'm Kyle.</h1>
-            <p>
+
+    <aside class="pushBottom sideNav">
+        <a class="socialMedia" href="https://github.com/TraXanh13" target="_blank"><img class="mediaLogo" src="images/githubLogo.png"></a>
+        <a class="socialMedia" href="https://www.linkedin.com/in/kyle-m-duong/" target="_blank"><img class="mediaLogo" src="images/linkedinLogo.png"></a>
+        <a class="socialMedia" href="https://www.instagram.com/traxanh13/" target="_blank"><img class="mediaLogo" src="images/instaLogo.png"></a>
+        <a class="socialMedia" href="https://open.spotify.com/user/nbwe34pp5lr0b1efb8pno22oy" target="_blank"><img class="mediaLogo" src="images/spotifyLogo.png"></a>
+    </aside>
+    <main>
+        <section>
+            <p>Hello, I am</p>
+            <h1>Kyle Duong.</h1>
+            <h2>Aspiring Software Developer or Data Engineer</h2>
+            <p id="aboutMe">
                 I'm a student at Mount Royal University in persuit of a bachelors in Computer Information Systems.
                 I'm expected to graduate in May 2023. 
                 <br><br>
@@ -28,26 +38,33 @@
                 websites and applications for class. I'm curious, enthusuatic, and motivated to improve my work
                 and level up to the next step.
             </p>
-        </div>
-    </article>
+        </section>
 
-    <article id="devTools">
-        <div class="centerArticle">
-            <h1>Developer Tools</h1>
-            <div id="devColumns">
-                <aside>
+        <section id="experience">
+            <h3>My Experiences</h3>
+            <div></div>
+        </section>
+        
+        <section id="devTools">
+            <div class="centersection">
+                <h1>Developer Tools</h1>
+                <div id="devColumns">
+                <div class="columnContent">
                     <p class="listTitle">Languages:</p>
-                <ul>
-                    <li>Java</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>MySQL</li>
-                    <li>Python</li>
-                </ul>
-                </aside>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                        <li>Python</li>
+                        <li>Cadence</li>
+                    </ul>
+                </div>
+                
                 <div class="vertLine"></div>
-                <aside>
+                
+                <div class="columnContent">
                     <p class="listTitle">Programs:</p>
                     <ul>
                         <li>Excel</li>
@@ -55,13 +72,19 @@
                         <li>Power Bi</li>
                         <li>Visual Studio Code</li>
                     </ul>
-                </aside>
+                </div>
             </div>
-        </div>
-    </article>
-
-    <footer>
+        </section>
+    
+        <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FEdmonton&showTabs=1&showPrint=0&showNav=1&showDate=0&showCalendars=0&showTz=1&showTitle=0&mode=WEEK&src=a3lsZWR1b25nMTNAZ21haWwuY29t&color=%23039BE5"  style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
         
-    </footer>
+        <section id="contactMe">
+            <h2>Contact me!</h2>
+
+        </section>
+    </main>
+    <aside class="pushBottom sideNav" id="emailContact">
+        <p>KyleDuong13@gmail.com</p>
+    </aside>
 </body>
 </html>

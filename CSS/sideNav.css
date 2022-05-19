@@ -1,0 +1,28 @@
+.mediaLogo {
+    width: 32px;
+    margin: 15% 0em;
+}
+
+.socialMedia{
+    display: block;
+}
+
+.pushBottom{
+    margin-top:auto;
+    bottom: 300px;
+}
+
+.sideNav{
+    width:5%;
+    height: 100px;
+    position: fixed;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#emailContact{
+    color: white;
+    transform: rotate(90deg);
+    right: 1%;
+}
