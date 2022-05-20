@@ -23,7 +23,6 @@ h1 {
 
 h2 {
   font-size: 30px;
-  opacity: 0.75;
 }
 
 p {
@@ -44,6 +43,7 @@ li {
 
 section {
   padding: 7em 0em;
+  height: 100vh;
 }
 
 #devTools {
@@ -152,4 +152,8 @@ section #aboutMe::after {
 .columnContent {
   width: fit-content;
   margin: 0px;
+}
+
+.reduceOpacity {
+  opacity: 0.75;
 }
