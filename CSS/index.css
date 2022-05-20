@@ -34,7 +34,6 @@ p {
 ul {
   margin-top: -1em;
   padding: 0;
-  list-style-type: none;
 }
 
 li {
@@ -44,7 +43,7 @@ li {
 }
 
 section {
-  margin-bottom: 15em;
+  padding: 7em 0em;
 }
 
 #devTools {
@@ -69,6 +68,32 @@ section {
   width: 80%;
 }
 
+#experienceHeader {
+  margin-bottom: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+#ls {
+  border-right: 1px solid #1dbb0f;
+}
+
+#workExperience {
+  border: none;
+}
+
+#experienceContent {
+  border: 1px solid #1dbb0f;
+  padding: 2em 3em;
+  width:auto;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+#experienceContent::-webkit-scrollbar {
+  display: none;
+}
+
 section #aboutMe::after {
   content: "";
   width: 6px;
@@ -82,6 +107,24 @@ section #aboutMe::after {
   0%{background: #000C18}
   50% {background: #1dbb0f}
   100%{background: #000C18}
+}
+
+.workExp{
+  margin-bottom: 2em;
+}
+
+.horzLine{
+  border-top: 1px dotted #1dbb0f;
+  width: 100%;
+}
+
+.hideBullet {
+  list-style-type: none;
+}
+
+.greenText {
+  background-color: #000C18;
+  color:#1dbb0f;
 }
 
 .centerArticle {
@@ -98,6 +141,12 @@ section #aboutMe::after {
 
 .listTitle {
   color: blueviolet;
+}
+
+.formStyle {
+  background-color: #000C18;
+  border: 1px solid #1dbb0f;
+  color: #1dbb0f;
 }
 
 .columnContent {

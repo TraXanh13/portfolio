@@ -1,4 +1,6 @@
 header {
+    position:fixed;
+    width: 100%;
     display:flex;
     margin: 1em; 
     top: 0;
@@ -6,8 +8,7 @@ header {
 
 nav{
     margin: auto;
-    margin-right: 0;
-    left: 0;
+    margin-right: 3em;
 }
 
 a {
