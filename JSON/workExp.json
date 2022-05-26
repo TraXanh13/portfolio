@@ -4,25 +4,43 @@
         "title": "Sensei",
         "length": "January 5 - Present",
         "tasks":["Taught and supervised classrooms of up to 16 kids at a time",
-        "Regularly presented new programming topics to children through presentations and demonstrations",
-        "Took initiative to implement ideas around the classroom to enhance the experience for students"]
+            "Regularly presented new programming topics to children through presentations and demonstrations",
+            "Took initiative to implement ideas around the classroom to enhance the experience for students",
+            "Created a systems analysis of all organizational emails and how they connect to current systems in place",
+            "Extracted customer data and plans to cleanse and visualize information through power bi",
+            "Created transactions and scripts through onflow blockchain"]
     },
     {
-        "job": "",
-        "title": "",
-        "length": "",
-        "tasks":[]
+        "job": "Centennial Food Service",
+        "title": "Order Assembler",
+        "length": "February 15, 2021 - August 13, 2021",
+        "tasks":["Organized orders and quality control to ensure time was spent efficiently Independently analyze orders and locate products to be delivered",
+            "Ensured products are up to standards and customers received the correct items along with any specific instructions"]
     },
     {
-        "job": "",
-        "title": "",
-        "length": "",
-        "tasks":[]
+        "job": "Costco",
+        "title": "Night Stocker",
+        "length": "May 23, 2018 - April 16, 2021",
+        "tasks":["Organized, planned, and rearranged new merchandise to display every product for the following day",
+            "Provided exceptional customer assistance in locating items either in this location or in another",
+            "Committed to ensuring the task is done before the shift ends",
+            " Stocked 15 boards within a one-and-a-half-hour time frame to complete the display standard"]
     },
     {
-        "job": "",
-        "title": "",
-        "length": "",
-        "tasks":[]
+        "job": "Enerje Café",
+        "title": "Waiter/Barista",
+        "length": "August 2017 - December 2017",
+        "tasks":["Utilizing a strong organizational ability to serve a minimum of five tables at once",
+            "Applied listening to satisfied Accommodated menu items to fit the guest's dietary needs",
+            "Ensured customer satisfaction and return",
+            "Created tasks to complete during slow hours"]
     },
+    {
+        "job": "Pho Kim",
+        "title": "Waiter",
+        "length": "July 2017 - September 2017",
+        "tasks":["Hosted customers by greeting, seating, and taking initial drink orders",
+            "Came in before opening to prepare for the day",
+            ""]
+    }
 ]
