@@ -42,80 +42,34 @@
         </section>
 
         <section id="experience">
-            <h3>My Experiences</h3>
+            <h3>My Work Experiences</h3>
             <div id="experienceHeader">
-                <button id="tree" class="formStyle">Tree</button>
-                <div id="lsBorder" class="formStyle">
-                    <button id="ls" class="greenText">Ls</button>
-                    <select id="workExperience" class="greenText">
-                        <option value="codeNinjas">Code Ninjas</option>
-                        <option value="centennial">Centennial Foodservice</option>
-                        <option value="costco">Costco</option>
-                        <option value="enerje">Enerje Cafe</option>
-                        <option value="phoKim">Pho Kim</option>
+                <button id="tree" class="greenText greenBorder blackBackground">Tree</button>
+                <div id="lsBorder" class="greenText greenBorder blackBackground">
+                    <button id="ls" class="greenText blackBackground">Ls</button>
+                    <select id="workExperience" class="greenText blackBackground">
+                        <option value="Code Ninjas">Code Ninjas</option>
+                        <option value="Centennial Foodservice">Centennial Foodservice</option>
+                        <option value="Costco">Costco</option>
+                        <option value="Enerje Café">Enerje Cafe</option>
+                        <option value="Pho Kim">Pho Kim</option>
                     </select>
                 </div>
             </div>
-            <div id="experienceContent">
-                <article id="phoKim" class="hidden">
-                    <h2>Pho Kim</h2>
-                    <p>July 2017 - September 2017</p>
-                    <div class="horzLine"></div>
-                    <br><br>
-                    <ul>
-                        <li>
-                            Hosted customers by greeting, seating, and taking initial drink orders
-                        </li>
-                        <li>
-                            Came in before opening to prepare for the day
-                        </li>
-                        <li>
-                            Ensured customers are satisfied with the service and meal to guarantee their return
-                        </li>
-                        <li>
-                            Assisted customers with meal accommodations to fit dietary requirements                              
-                        </li>
-                    </ul>
-                </article>
-            </div>
+            <div id="experienceContent"></div>
         </section>
-        
-        <section id="devTools">
-            <div class="centersection">
-                <h1>Developer Tools</h1>
-                <div id="devColumns">
-                <div class="columnContent">
-                    <p class="listTitle">Languages:</p>
-                    <ul class="hideBullet">
-                        <li>Java</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>MySQL</li>
-                        <li>Python</li>
-                        <li>Cadence</li>
-                    </ul>
-                </div>
-                
-                <div class="vertLine"></div>
-                
-                <div class="columnContent">
-                    <p class="listTitle">Programs:</p>
-                    <ul class="hideBullet">
-                        <li>Excel</li>
-                        <li>Google Sheets</li>
-                        <li>Power Bi</li>
-                        <li>Visual Studio Code</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    
-        <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FEdmonton&showTabs=1&showPrint=0&showNav=1&showDate=0&showCalendars=0&showTz=1&showTitle=0&mode=WEEK&src=a3lsZWR1b25nMTNAZ21haWwuY29t&color=%23039BE5"  style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
-        
+     
         <section id="contactMe">
             <h2>Contact me!</h2>
-
+            <form class="greenBorder">
+                <label for="email">Email: </label>
+                <input type="text" id="email" placeholder="email" class="greenText greenBorder blackBackground" required>
+                <label for="subject">Subject: </label>
+                <input type="text" id="subject" placeholder="subject" class="greenText greenBorder blackBackground">
+                <textarea class="greenText greenBorder blackBackground" required></textarea>
+                <button id="clearForm" class="greenText greenBorder blackBackground">Clear</button>
+                <input type="submit" id="send" value="Send" class="greenText greenBorder blackBackground">
+            </form>
         </section>
     </main>
     <aside class="pushBottom sideNav" id="emailContact">

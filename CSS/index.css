@@ -14,7 +14,8 @@ body::-webkit-scrollbar {
 
 main {
   width: 75%;
-  margin: 7em 15em;
+  margin: 7em 15em 0em 15em;
+  padding-bottom: 0;
 }
 
 h1 {
@@ -46,22 +47,11 @@ section {
   height: 100vh;
 }
 
-#devTools {
-  width: 60%;
-  border-radius: 1em;
-  margin: auto;
-  background-color: white;
-}
-
-#devColumns {
-  display: flex;
-  justify-content: center;
-  gap: 5em;
-}
-
-#calendar {
+form {
   display: block;
-  margin: auto;
+  width: 80%;
+  height: 50vh;
+  padding: 1em;
 }
 
 #aboutMe {
@@ -109,6 +99,26 @@ section #aboutMe::after {
   100%{background: #000C18}
 }
 
+#contactMe {
+  padding-bottom: 0;
+}
+
+#email {
+  width: 50%;
+}
+
+.greenText {
+  color:#1dbb0f;
+}
+
+.greenBorder {
+  border: 1px solid #1dbb0f;
+}
+
+.blackBackground {
+  background-color: #000C18;
+}
+
 .workExp{
   margin-bottom: 2em;
 }
@@ -120,11 +130,6 @@ section #aboutMe::after {
 
 .hideBullet {
   list-style-type: none;
-}
-
-.greenText {
-  background-color: #000C18;
-  color:#1dbb0f;
 }
 
 .centerArticle {
@@ -143,11 +148,6 @@ section #aboutMe::after {
   color: blueviolet;
 }
 
-.formStyle {
-  background-color: #000C18;
-  border: 1px solid #1dbb0f;
-  color: #1dbb0f;
-}
 
 .columnContent {
   width: fit-content;
@@ -156,4 +156,8 @@ section #aboutMe::after {
 
 .reduceOpacity {
   opacity: 0.75;
+}
+
+.leftTab {
+  margin-left: 3em;
 }
