@@ -11,7 +11,7 @@
             "Created transactions and scripts through onflow blockchain"]
     },
     {
-        "job": "Centennial Food Service",
+        "job": "Centennial Foodservice",
         "title": "Order Assembler",
         "length": "February 15, 2021 - August 13, 2021",
         "tasks":["Organized orders and quality control to ensure time was spent efficiently Independently analyze orders and locate products to be delivered",
@@ -28,7 +28,7 @@
     },
     {
         "job": "Enerje Café",
-        "title": "Waiter/Barista",
+        "title": "Server/Barista",
         "length": "August 2017 - December 2017",
         "tasks":["Utilizing a strong organizational ability to serve a minimum of five tables at once",
             "Applied listening to satisfied Accommodated menu items to fit the guest's dietary needs",
@@ -37,10 +37,11 @@
     },
     {
         "job": "Pho Kim",
-        "title": "Waiter",
+        "title": "Server",
         "length": "July 2017 - September 2017",
         "tasks":["Hosted customers by greeting, seating, and taking initial drink orders",
             "Came in before opening to prepare for the day",
-            ""]
+            "Ensured customers are satisfied with the service and meal to guarantee their return",
+            "Assisted customers with meal accommodations to fit dietary requirements"]
     }
 ]
