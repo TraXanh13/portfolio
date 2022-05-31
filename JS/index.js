@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(jobs => {
             workExp = jobs;
-            console.log("test")
             // Set default work exp shown to code ninjas
             createWorkHistory(workExp[0]);
         });
