@@ -64,12 +64,23 @@ form {
   gap: 1em;
 }
 
+#experience {
+  padding-bottom: 0;
+}
+
+#lsBorder {
+  padding:0;
+}
+
 #ls {
+  border: 0;
   border-right: 1px solid #1dbb0f;
+  margin: 0;
 }
 
 #workExperience {
   border: none;
+  outline: 0;
 }
 
 #experienceContent {
@@ -78,6 +89,11 @@ form {
   width:auto;
   height: 50vh;
   overflow-y: scroll;
+}
+
+#ls:active, #tree:active {
+  background-color: #1dbb0f;
+  color: white;
 }
 
 #experienceContent::-webkit-scrollbar {
@@ -99,13 +115,6 @@ section #aboutMe::after {
   100%{background: #000C18}
 }
 
-#contactMe {
-  padding-bottom: 0;
-}
-
-#email {
-  width: 50%;
-}
 
 .greenText {
   color:#1dbb0f;

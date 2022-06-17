@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(jobs => {
             workExp = jobs;
             // Set default work exp shown to code ninjas
+            fillOptions();
             createWorkHistory(workExp[0]);
         });
 
@@ -38,6 +39,18 @@ document.addEventListener("DOMContentLoaded", function() {
     function clearWorkHistory() {
         let expContent = document.getElementById("experienceContent");
         expContent.innerHTML = "";
+    }
+
+    function fillOptions() {
+        let workExpMenu = document.getElementById("workExperience");
+        
+        for(job of workExp){
+            let option = document.createElement("option");
+            option.value = job.job;
+            option.innerHTML = job.job;
+
+            workExpMenu.appendChild(option);
+        }
     }
 
     function createWorkHistory(job){
