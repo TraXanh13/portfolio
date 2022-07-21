@@ -12,9 +12,18 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+header {
+  margin: 0;
+  padding-top: 1em;
+  z-index: 10;
+}
+
 main {
   width: 75%;
   margin: 7em 15em 0em 15em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(16, 5em);
   padding-bottom: 0;
 }
 
@@ -42,20 +51,14 @@ li {
   display: list-item;
 }
 
-section {
-  padding: 7em 0em;
-  height: 100vh;
+#intro {
+  grid-column: span 13;
+  grid-row: span 8;
 }
 
-form {
-  display: block;
-  width: 80%;
-  height: 50vh;
-  padding: 1em;
-}
-
-#aboutMe {
-  width: 80%;
+#email {
+  font-weight: bold;
+  font-size: medium;
 }
 
 #experienceHeader {
@@ -65,7 +68,8 @@ form {
 }
 
 #experience {
-  padding-bottom: 0;
+  grid-column: span 13;
+  grid-row: span 3;
 }
 
 #lsBorder {
