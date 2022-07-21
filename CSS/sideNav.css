@@ -1,28 +1,37 @@
 .mediaLogo {
-    width: 32px;
-    margin: 15% 0em;
+  width: 32px;
+  margin: 10px 0px;
 }
 
-.socialMedia{
-    display: block;
+.socialMedia {
+  display: block;
 }
 
-.pushBottom{
-    margin-top:auto;
-    bottom: 300px;
+.pushBottom {
+  margin-top: auto;
+  bottom: 300px;
 }
 
-.sideNav{
-    width:5%;
-    height: 100px;
-    position: fixed;
-    display: block;
-    align-items: center;
-    justify-content: center;
+.sideNav {
+  width: 5%;
+  height: 100px;
+  position: fixed;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
-#emailContact{
-    color: white;
-    transform: rotate(90deg);
-    right: 1%;
+#emailContact {
+  transform: rotate(90deg);
+  right: 40px;
+}
+
+#email {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+
+aside a:hover{
+    transform: scale(1.2);
 }

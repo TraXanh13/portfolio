@@ -1,75 +1,30 @@
-body {
-  background: #000C18;
-  color: #1dbb0f;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  font-family:'Courier New', Courier, monospace;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
 main {
-  width: 75%;
-  margin: 7em 15em 0em 15em;
+  padding-top: 100px;
+  display: grid;
+  grid-template-rows: repeat(18, 10vh);
   padding-bottom: 0;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-p {
-  font-weight: bold;
-  font-size: medium;
-}
-
-ul {
-  margin-top: -1em;
-  padding: 0;
-}
-
-li {
-  font-weight: bold;
-  font-size: large;
-  display: list-item;
-}
-
-section {
-  padding: 7em 0em;
-  height: 100vh;
-}
-
-form {
-  display: block;
-  width: 80%;
-  height: 50vh;
-  padding: 1em;
-}
-
-#aboutMe {
-  width: 80%;
+#intro {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  grid-row: 2/10;
 }
 
 #experienceHeader {
-  margin-bottom: 1em;
+  margin-bottom: 15px;
   display: flex;
-  gap: 1em;
+  gap: 15px;
 }
 
 #experience {
-  padding-bottom: 0;
+  width: 60%;
+  margin: auto;
+  grid-row: span 8;
 }
 
 #lsBorder {
-  padding:0;
+  padding: 0;
 }
 
 #ls {
@@ -85,13 +40,14 @@ form {
 
 #experienceContent {
   border: 1px solid #1dbb0f;
-  padding: 2em 3em;
-  width:auto;
-  height: 50vh;
+  padding: 30px 50px;
+  width: auto;
+  height: 40vh;
   overflow-y: scroll;
 }
 
-#ls:active, #tree:active {
+#ls:active,
+#tree:active {
   background-color: #1dbb0f;
   color: white;
 }
@@ -110,63 +66,13 @@ section #aboutMe::after {
 }
 
 @keyframes cursor-blink {
-  0%{background: #000C18}
-  50% {background: #1dbb0f}
-  100%{background: #000C18}
-}
-
-
-.greenText {
-  color:#1dbb0f;
-}
-
-.greenBorder {
-  border: 1px solid #1dbb0f;
-}
-
-.blackBackground {
-  background-color: #000C18;
-}
-
-.workExp{
-  margin-bottom: 2em;
-}
-
-.horzLine{
-  border-top: 1px dotted #1dbb0f;
-  width: 100%;
-}
-
-.hideBullet {
-  list-style-type: none;
-}
-
-.centerArticle {
-  width: 60%;
-  margin: auto;
-  margin-bottom: 5em;
-  padding: 2em;
-  text-align: center;
-}
-
-.vertLine {
-  border-left: 1px solid #1dbb0f;
-}
-
-.listTitle {
-  color: blueviolet;
-}
-
-
-.columnContent {
-  width: fit-content;
-  margin: 0px;
-}
-
-.reduceOpacity {
-  opacity: 0.75;
-}
-
-.leftTab {
-  margin-left: 3em;
+  0% {
+    background: #000c18;
+  }
+  50% {
+    background: #1dbb0f;
+  }
+  100% {
+    background: #000c18;
+  }
 }

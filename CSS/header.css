@@ -1,25 +1,27 @@
 header {
-    position:fixed;
-    width: 100%;
-    display:flex;
-    margin: 1em; 
-    top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  top: 0;
+  padding-top: 20px;
+  z-index: 10;
 }
 
-nav{
-    margin: auto;
-    margin-right: 3em;
+nav {
+  margin: auto;
+  margin-right: 15px;
 }
 
 a {
-    font-weight: bold;
-    color: #1dbb0f;
-    text-decoration: none;
-    font-size:large;
-    margin-left: 1em;
-    text-align: center;
+  margin-left: 15px;
+  font-weight: bold;
+  color: #1dbb0f;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
