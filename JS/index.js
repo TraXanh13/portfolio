@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         for (jobDesc of job.tasks) {
             let li = document.createElement("li");
+            li.classList.add("reduceOpacity");
             li.innerHTML = jobDesc;
             ul.appendChild(li);
         }

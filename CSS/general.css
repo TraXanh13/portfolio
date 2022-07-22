@@ -25,16 +25,10 @@ p {
   font-size: medium;
 }
 
-ul {
-  margin-top: -15px;
-  padding: 0;
-  margin-bottom: 50px;
-}
-
 li {
   font-weight: bold;
-  font-size: large;
   display: list-item;
+  margin-bottom: 10px;
 }
 
 .greenText {
@@ -89,4 +83,8 @@ li {
 
 .leftTab {
   margin-left: 3em;
+}
+
+.textEmphasis {
+  color:lightgray;
 }

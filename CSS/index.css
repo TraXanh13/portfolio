@@ -1,26 +1,45 @@
 main {
-  padding-top: 100px;
+  padding: 100px 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(18, 10vh);
+  grid-template-rows: repeat(26, 10vh);
   padding-bottom: 0;
 }
 
 #intro {
-  width: 60%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   grid-row: 2/10;
+}
+
+#aboutMe {
+  grid-row: span 8;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#languageList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+#aboutMeBlurb {
+  grid-column: 1/8;
+}
+
+#aboutMe img {
+  grid-column: 8/12;
+  margin: 50px 50px;
+  opacity: .8;
+}
+
+#experience {
+  margin: auto;
+  grid-row: span 8;
 }
 
 #experienceHeader {
   margin-bottom: 15px;
   display: flex;
   gap: 15px;
-}
-
-#experience {
-  width: 60%;
-  margin: auto;
-  grid-row: span 8;
 }
 
 #lsBorder {
@@ -40,9 +59,9 @@ main {
 
 #experienceContent {
   border: 1px solid #1dbb0f;
-  padding: 30px 50px;
+  padding: 10px 50px;
   width: auto;
-  height: 40vh;
+  height: 60vh;
   overflow-y: scroll;
 }
 
@@ -56,7 +75,7 @@ main {
   display: none;
 }
 
-section #aboutMe::after {
+section #overview::after {
   content: "";
   width: 6px;
   height: 16px;
@@ -69,9 +88,11 @@ section #aboutMe::after {
   0% {
     background: #000c18;
   }
+
   50% {
     background: #1dbb0f;
   }
+
   100% {
     background: #000c18;
   }
