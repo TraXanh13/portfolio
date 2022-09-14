@@ -14,6 +14,12 @@ main {
   grid-row: span 8;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 50px;
+}
+
+#aboutMe h2 {
+  margin: 0;
+  grid-column: span 12;
 }
 
 #languageList {
