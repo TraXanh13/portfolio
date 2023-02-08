@@ -13,7 +13,7 @@
     <title>Kyle Duong</title>
   </head>
 
-  <body>
+  <body class="hideScrollBar">
     <header class="blackBackground">
       <a id="logo">&lt/><br />Kyle Duong</a>
       <nav>
@@ -103,21 +103,34 @@
             ></select>
           </div>
         </div>
-        <div id="experienceContent"></div>
+        <div id="experienceContent" class="hideScrollBar"></div>
       </section>
 
       <section id="projects" class="contentSize">
         <h2>My Projects</h2>
-        <div id="projectList">
-          <div class="project">
-            <img src="./images/cheese.png" />
-            <h3>Cheese</h3>
-            <p>
-              A simple game where you play as a mouse trying to collect cheese
-              while avoiding cats.
-            </p>
-            <a
-              href="https://traxanh13.itch.io/cheese" target="_blank" class="projectLink" >Play</a>
+        <div
+          id="projectCarosel"
+          class="greenText greenBorder blackBackground hideScrollBar"
+        >
+          <button id="leftArrow" class="greenText blackBackground arrows">
+            &lt;
+          </button>
+          <div id="projectDropDown">
+            <select
+              id="projectList"
+              class="greenText blackBackground"
+              name="projectList"
+            ></select>
+          </div>
+          <button id="rightArrow" class="greenText blackBackground arrows">
+            &gt;
+          </button>
+        </div>
+        <div id="projectDescription">
+          <h3 id="projectTitle">Title</h3>
+          <p id="projectBlurb">Some blurb about the project would go here</p>
+          <div id="projectLinks"></div>
+        </div>
       </section>
     </main>
 

@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if(e.target.id == "aboutScroll"){
             scrollContentIntoView(document.getElementById("aboutMe"));
         } else if(e.target.id == "experienceScroll"){
-            document.getElementById("experience").scrollIntoView({behavior: "smooth", block: "start"});
+            scrollContentIntoView(document.getElementById("experience"));
         } else if(e.target.id == "projectScroll"){
-            document.getElementById("projects").scrollIntoView({behavior: "smooth", block: "start"});
+            scrollContentIntoView(document.getElementById("projects"));
         }
     });
 

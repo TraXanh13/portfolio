@@ -8,10 +8,6 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 h1 {
   font-size: 50px;
 }
@@ -29,6 +25,10 @@ li {
   font-weight: bold;
   display: list-item;
   margin-bottom: 10px;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
 }
 
 .greenText {
@@ -86,5 +86,5 @@ li {
 }
 
 .textEmphasis {
-  color:lightgray;
+  color: lightgray;
 }

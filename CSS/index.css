@@ -1,7 +1,7 @@
 main {
   padding: 100px 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(40, 10vh);
+  grid-template-rows: repeat(32, 10vh);
   padding-bottom: 0;
   position: relative;
 }
@@ -14,10 +14,14 @@ aside {
   grid-row: span 8;
 }
 
+/* Introduction Section */
+
 #intro {
   margin: 0 auto;
   grid-row: 2/10;
 }
+
+/*  About Section */
 
 #aboutMe {
   display: grid;
@@ -45,8 +49,10 @@ aside {
   opacity: 0.8;
 }
 
+/* Experience Section */
+
 #experience {
-  width: 100%;
+  width: 90%;
 }
 
 #experienceHeader {
@@ -84,8 +90,46 @@ aside {
   color: white;
 }
 
-#experienceContent::-webkit-scrollbar {
-  display: none;
+/* Projects Section */
+
+#projects {
+  width: 90%;
+}
+
+#projectCarosel {
+  position: relative;
+  border: 1px solid #1dbb0f;
+  padding: 10px 50px;
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+  display: flex;
+}
+
+#projectDropDown {
+  position: absolute;
+  right: 1.5%;
+  border: none;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  font-size: larger;
+  background-color: none;
+  border: none;
+}
+
+.arrows:hover {
+  opacity: 1;
+}
+
+#leftArrow {
+  left: 1.5%;
+}
+
+#rightArrow {
+  right: 1.5%;
 }
 
 section #overview::after {
