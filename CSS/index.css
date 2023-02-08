@@ -38,7 +38,7 @@ main {
 }
 
 #experience {
-  margin: auto;
+  width: 100%;
   grid-row: span 8;
 }
 

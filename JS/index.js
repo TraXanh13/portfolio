@@ -57,8 +57,11 @@ document.addEventListener("DOMContentLoaded", function() {
         let expContent = document.getElementById("experienceContent");
         let article = document.createElement("article");
         
-        let jobAndTitle = document.createElement("h2");
-        jobAndTitle.innerHTML = `${job.job} - ${job.title}`;
+        let jobLoc = document.createElement("h2");
+        jobLoc.innerHTML = job.job;
+
+        let jobTitle = document.createElement("h3");
+        jobTitle.innerHTML = job.title;
 
         let duration = document.createElement("p");
         duration.innerHTML = job.length;
@@ -78,7 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         expContent.appendChild(article);
-        article.appendChild(jobAndTitle);
+        article.appendChild(jobLoc);
+        article.appendChild(jobTitle);
         article.appendChild(duration);
         article.appendChild(horzLine);
         article.appendChild(ul);
