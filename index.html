@@ -1,100 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/general.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="./CSS/sideNav.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script src="./JS/index.js"></script>
+    <title>Kyle Duong</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./CSS/general.css" />
-  <link rel="stylesheet" href="./CSS/header.css" />
-  <link rel="stylesheet" href="./CSS/sideNav.css" />
-  <link rel="stylesheet" href="./CSS/index.css" />
-  <script src="./JS/index.js"></script>
-  <title>Kyle Duong</title>
-</head>
+  <body>
+    <header class="blackBackground">
+      <a id="logo" href="index.html">&lt/><br />Kyle Duong</a>
+      <nav>
+        <a href="#aboutMe">About</a>
+        <a href="#experience">Experience</a>
+        <a href="resume.html" target="_blank">Resume</a>
+      </nav>
+    </header>
 
-<body>
-  <header class="blackBackground">
-    <a id="logo" href="index.html">&lt/><br />Kyle Duong</a>
-    <nav>
-      <a href="#aboutMe">About</a>
-      <a href="#experience">Experience</a>
-      <a href="resume.html" target="_blank">Resume</a>
-    </nav>
-  </header>
+    <aside class="pushBottom sideNav">
+      <a class="socialMedia" href="https://github.com/TraXanh13" target="_blank"
+        ><img class="mediaLogo" src="images/githubLogo.png"
+      /></a>
+      <a
+        class="socialMedia"
+        href="https://www.linkedin.com/in/kyle-m-duong/"
+        target="_blank"
+        ><img class="mediaLogo" src="images/linkedinLogo.png"
+      /></a>
+      <a
+        class="socialMedia"
+        href="https://www.instagram.com/traxanh13/"
+        target="_blank"
+        ><img class="mediaLogo" src="images/instaLogo.png"
+      /></a>
+      <a
+        class="socialMedia"
+        href="https://open.spotify.com/user/nbwe34pp5lr0b1efb8pno22oy"
+        target="_blank"
+        ><img class="mediaLogo" src="images/spotifyLogo.png"
+      /></a>
+    </aside>
 
-  <aside class="pushBottom sideNav">
-    <a class="socialMedia" href="https://github.com/TraXanh13" target="_blank"><img class="mediaLogo"
-        src="images/githubLogo.png" /></a>
-    <a class="socialMedia" href="https://www.linkedin.com/in/kyle-m-duong/" target="_blank"><img class="mediaLogo"
-        src="images/linkedinLogo.png" /></a>
-    <a class="socialMedia" href="https://www.instagram.com/traxanh13/" target="_blank"><img class="mediaLogo"
-        src="images/instaLogo.png" /></a>
-    <a class="socialMedia" href="https://open.spotify.com/user/nbwe34pp5lr0b1efb8pno22oy" target="_blank"><img
-        class="mediaLogo" src="images/spotifyLogo.png" /></a>
-  </aside>
-
-  <main>
-    <section id="intro">
-      <p>Hello, I am</p>
-      <h1>Kyle Duong.</h1>
-      <h2 class="reduceOpacity">Aspiring Software Developer</h2>
-      <p id="overview">
-        I'm a student at Mount Royal University in persuit of a bachelors in
-        Computer Information Systems. I'm expected to graduate in May 2023.
-        <br /><br />
-        Since I've begun programming nearly 7 years ago, I've collaborated
-        with talented people to create websites and applications for class.
-        I'm curious, enthusuatic, and motivated to improve my work and level
-        up to the next step.
-      </p>
-    </section>
-
-    <section id="aboutMe">
-      <h2>About Me</h2>
-      <article id="aboutMeBlurb">
-        <p class="reduceOpacity">
-          Hello! My name is Kyle and I enjoy creating things and solving problems. My interest in programming all
-          sparked from a single computer science class I took in grade 10 where I needed to create a website and a side
-          scrolling game in JavaScript.
+    <main>
+      <section id="intro">
+        <p>Hello, I am</p>
+        <h1>Kyle Duong.</h1>
+        <h2 class="reduceOpacity">Aspiring Software Developer</h2>
+        <p id="overview">
+          I'm a student at Mount Royal University in persuit of a bachelors in
+          Computer Information Systems. I'm expected to graduate in May 2023.
           <br /><br />
-          Moving to today, I am in my final year of university working towards my bachelors
-          in computer information systems. Before I graduate and commit to a career, I have been trying to
-          dabble in different languages and aspects of computer science. 
-          <br /><br />
-          Here are the different languages I have worked with:
+          Since I've begun programming nearly 7 years ago, I've collaborated
+          with talented people to create websites and applications for class.
+          I'm curious, enthusuatic, and motivated to improve my work and level
+          up to the next step.
         </p>
-        <ul class="reduceOpacity" id="languageList">
-          <li>Java</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Python</li>
-          <li>C</li>
-          <li>C++</li>
-        </ul>
-      </article>
-      <img src="./images/chesterPic.jpg">
-    </section>
+      </section>
 
-    <section id="experience">
-      <h2>My Work Experiences</h2>
-      <div id="experienceHeader">
-        <button id="tree" class="greenText greenBorder blackBackground">
-          Tree
-        </button>
-        <div id="lsBorder" class="greenText greenBorder blackBackground">
-          <button id="ls" class="greenText blackBackground">Ls</button>
-          <select id="workExperience" class="greenText blackBackground"></select>
+      <section id="aboutMe">
+        <h2>About Me</h2>
+        <article id="aboutMeBlurb">
+          <p class="reduceOpacity">
+            Hello! My name is Kyle and I enjoy creating things and solving
+            problems. My interest in programming all sparked from a single
+            computer science class I took in grade 10 where I needed to create a
+            website and a side scrolling game in JavaScript.
+            <br /><br />
+            Moving to today, I am in my final year of university working towards
+            my bachelors in computer information systems. Before I graduate and
+            commit to a career, I have been trying to dabble in different
+            languages and aspects of computer science.
+            <br /><br />
+            Here are the different languages I have worked with:
+          </p>
+          <ul class="reduceOpacity" id="languageList">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>C</li>
+          </ul>
+        </article>
+        <img src="./images/chesterPic.jpg" />
+      </section>
+
+      <section id="experience">
+        <h2>My Work Experiences</h2>
+        <div id="experienceHeader">
+          <button id="tree" class="greenText greenBorder blackBackground">
+            Tree
+          </button>
+          <div id="lsBorder" class="greenText greenBorder blackBackground">
+            <button id="ls" class="greenText blackBackground">Ls</button>
+            <select
+              id="workExperience"
+              class="greenText blackBackground"
+            ></select>
+          </div>
         </div>
-      </div>
-      <div id="experienceContent"></div>
-    </section>
-  </main>
+        <div id="experienceContent"></div>
+      </section>
+    </main>
 
-  <aside class="pushBottom sideNav" id="emailContact">
-    <a href="mailto:KyleDuong13@gmail.com" id="email">KyleDuong13@gmail.com</a>
-  </aside>
-</body>
-
+    <aside class="pushBottom sideNav" id="emailContact">
+      <a href="mailto:KyleDuong13@gmail.com" id="email"
+        >KyleDuong13@gmail.com</a
+      >
+    </aside>
+  </body>
 </html>

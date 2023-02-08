@@ -1,8 +1,37 @@
 [
     {
+        "job": "Academic Development Center - Mount Royal University",
+        "title": "D2L Migration Support Analyst",
+        "length": "December 14, 2022 - Present",
+        "tasks":["Provided support to faculty and students in the transition to D2L Brightspace",
+            "Resolved +20 tickets and in-person visits a day through effective communication and troubleshooting.",
+            "Educate faculty and students on the functions of D2L for the transition from BlackBoard"]
+    },
+    {
+        "job": "Costco",
+        "title": "Tire Installer",
+        "length": "July 30, 2022 - January 10, 2023",
+        "tasks":["Provided services to customer cehicles such as mounting, balancing, rotations, and flat repairs.",
+            "Ensured the customer was satisfied with the service and their vehicle was safe to drive",
+            "Communicated with customers to ensure they were aware of the process and time it would take",
+            "Completed tasks in a timely manner to ensure the customer was not waiting",
+            "Used tire shop equipment in a safe manner while maintaining a clean work environment"]
+    },
+    {
+        "job": "Ghost Armor - Crossiron Mills",
+        "title": "Sales Associate",
+        "length": "June 14, 2022 - September 11, 2022",
+        "tasks":["Provided exceptional customer service to customers in store and over the phone",
+            "Communicated with customers to ensure they were aware of the process and time it would take",
+            "Completed tasks in a timely manner to ensure the customer was not waiting",
+            "Applied customer service experience and marketing concepts to promote the company's products",
+            "Applied various types of device protection for up to seven devices at a time",
+            "Worked independently balancing multiple tasks including transactions, protection applications, and customer service"]
+    },
+    {
         "job": "Code Ninjas",
         "title": "Sensei",
-        "length": "January 5 - Present",
+        "length": "January 5, 2022 - June 17, 2022",
         "tasks":["Taught and supervised classrooms of up to 16 kids at a time",
             "Regularly presented new programming topics to children through presentations and demonstrations",
             "Took initiative to implement ideas around the classroom to enhance the experience for students",
