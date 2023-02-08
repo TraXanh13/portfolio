@@ -1,4 +1,4 @@
 # portfolio
 
 Hosted on Netlify
-https://scintillating-torte-04159a.netlify.app/
+https://kyleduong13.netlify.app/
