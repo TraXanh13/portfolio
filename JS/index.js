@@ -15,8 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const lsButton = document.getElementById("ls");
     const lsItem = document.getElementById("workExperience");
     const treeButton = document.getElementById("tree");
+    
+    treeButton.addEventListener("click", () => {
+        clearWorkHistory();
+        for (const job of workExp) {
+            createWorkHistory(job);
+        }
+    });
 
-    lsButton.addEventListener("click", () => {
+    lsItem.addEventListener("change", () => {
         let selectedJob = lsItem.value;
 
         for (job of workExp) {
@@ -27,14 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
     });
-
-    treeButton.addEventListener("click", () => {
-        clearWorkHistory();
-        for (const job of workExp) {
-            createWorkHistory(job);
-        }
-    })
-
 
     function clearWorkHistory() {
         let expContent = document.getElementById("experienceContent");
