@@ -8,9 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     nav.addEventListener("click", (e) => {
         if(e.target.id == "aboutScroll"){
-            document.getElementById("aboutMe").scrollIntoView({behavior: "smooth", block: "end"});
+            scrollContentIntoView(document.getElementById("aboutMe"));
         } else if(e.target.id == "experienceScroll"){
-            document.getElementById("experience").scrollIntoView({behavior: "smooth", block: "end"});
+            document.getElementById("experience").scrollIntoView({behavior: "smooth", block: "start"});
+        } else if(e.target.id == "projectScroll"){
+            document.getElementById("projects").scrollIntoView({behavior: "smooth", block: "start"});
         }
     });
+
+    function scrollContentIntoView(element) {
+        element.scrollIntoView({behavior: "smooth", block: "end"});
+    }
 });
