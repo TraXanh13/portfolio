@@ -6,6 +6,10 @@ main {
   position: relative;
 }
 
+aside {
+  z-index: 1;
+}
+
 #intro {
   margin: 0 auto;
   grid-row: 2/10;
