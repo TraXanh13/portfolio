@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
             createWorkHistory(workExp[0]);
         });
 
-    const lsButton = document.getElementById("ls");
     const lsItem = document.getElementById("workExperience");
     const treeButton = document.getElementById("tree");
     
