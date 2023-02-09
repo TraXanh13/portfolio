@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let projectDesc = document.createElement("p");
         let projectLink = createLink(project);
         
-        projectCarosel.style.backgroundImage = `url(${project.imageLocation}itchio.png)`;
+        projectCarosel.style.backgroundImage = `url(${project.imageLocations[0]})`;
         projectTitle.innerHTML = project.project;
         projectDesc.innerHTML = project.description;
 
