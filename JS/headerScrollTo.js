@@ -19,7 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
     function scrollContentIntoView(element) {
         element.scrollIntoView({behavior: "smooth", block: "end"});
     }
-
-    // TODO: Change link to fit in nicely with the rest of the site
-    // TODO: Create tag boxes for the tools used in the project
 });

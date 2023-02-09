@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
         projectCarosel.style.backgroundImage = `url(${project.imageLocation}itchio.png)`;
         projectTitle.innerHTML = project.project;
         projectDesc.innerHTML = project.description;
-        projectLink.innerHTML = `<a href=${project.link}>${project.link}</a>`;
 
         projectDetails.appendChild(projectTitle);
         projectDetails.appendChild(projectDesc);
@@ -43,15 +42,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function createLink(project) {
         let projectLink = document.createElement("a");
-        projectLink.innerHTML = `<a href=${project.link}>${project.link}</a>`;
+        projectLink.href = project.link;
         projectLink.setAttribute("rel", "noopener noreferrer");
         projectLink.setAttribute("target", "_blank");
+        projectLink.id = "projectLink";
+        projectLink.innerHTML = "View Project";
 
         return projectLink;
     }
 
     function createToolCards(project) {
-        let projectTools = document.createElement("projectTools");
+        let projectTools = document.createElement("div");
+        projectTools.id = "projectTools";
+
         project.tools.forEach(tool => {
             let toolCard = document.createElement("div");
             toolCard.className = "toolCard";
@@ -78,5 +81,4 @@ document.addEventListener("DOMContentLoaded", function() {
         projectDetails = document.getElementById("projectDetails");
         projectDetails.innerHTML = "";
     }
-
 });

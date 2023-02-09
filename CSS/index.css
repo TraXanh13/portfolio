@@ -120,6 +120,24 @@ aside {
   border: none;
 }
 
+#projectLink {
+  margin-left: 0;
+  left: 0;
+  border: none;
+}
+
+#projectTools {
+  margin-top: 1em;
+  display: flex;
+}
+
+.toolCard {
+  margin-right: 1em;
+  padding: 0.5em;
+  border: 1px solid #1dbb0f;
+  border-radius: 20%;
+}
+
 .arrows {
   position: absolute;
   top: 50%;
