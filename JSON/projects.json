@@ -2,8 +2,32 @@
     {
         "id": 1,
         "project": "Bibbits Quest",
-        "description": "Bibbits Quest is a 2D platformer game where you play as Bibbit, a frog who is on a quest to find his lost friend. The game is made in Unity and is currently in development.",
-        "image": "https://i.imgur.com/3Z9ZQ2M.png",
+        "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
+        "imageLocation": "./images/project-images/bibbits-quest/",
+        "link": "https://bibbits-quest.itch.io/bibbits-quest",
+        "tools": ["Unity", "C#"]
+    },
+    {
+        "id": 2,
+        "project": "Something Else",
+        "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
+        "imageLocation": "./images/project-images/bibbits-quest/",
+        "link": "https://bibbits-quest.itch.io/bibbits-quest",
+        "tools": ["Unity", "C#"]
+    },
+    {
+        "id": 3,
+        "project": "Something Else1",
+        "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
+        "imageLocation": "./images/project-images/bibbits-quest/",
+        "link": "https://bibbits-quest.itch.io/bibbits-quest",
+        "tools": ["Unity", "C#"]
+    },
+    {
+        "id": 4,
+        "project": "Something Else2",
+        "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
+        "imageLocation": "./images/project-images/bibbits-quest/",
         "link": "https://bibbits-quest.itch.io/bibbits-quest",
         "tools": ["Unity", "C#"]
     }

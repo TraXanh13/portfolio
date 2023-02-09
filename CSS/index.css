@@ -1,7 +1,7 @@
 main {
   padding: 100px 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(36, 10vh);
+  grid-template-rows: repeat(34, 10vh);
   padding-bottom: 0;
   position: relative;
 }
@@ -11,13 +11,14 @@ aside {
 }
 
 .contentSize {
-  grid-row: span 9;
+  grid-row: span 8;
 }
 
 /* Introduction Section */
 
 #intro {
   margin: 0 auto;
+  grid-row: 2/10;
 }
 
 /*  About Section */
@@ -93,6 +94,7 @@ aside {
 
 #projects {
   width: 90%;
+  grid-row: span 9;
 }
 
 #projectList {
@@ -107,6 +109,9 @@ aside {
   height: 50vh;
   overflow-y: scroll;
   display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #projectDropDown {
@@ -133,6 +138,10 @@ aside {
 
 #rightArrow {
   right: 1.5%;
+}
+
+#projectLink {
+  left: 0;
 }
 
 section #overview::after {
