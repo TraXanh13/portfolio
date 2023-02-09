@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "project": "Bibbits Quest",
+        "description": "Bibbits Quest is a 2D platformer game where you play as Bibbit, a frog who is on a quest to find his lost friend. The game is made in Unity and is currently in development.",
+        "image": "https://i.imgur.com/3Z9ZQ2M.png",
+        "link": "https://bibbits-quest.itch.io/bibbits-quest",
+        "tools": ["Unity", "C#"]
+    }
+]

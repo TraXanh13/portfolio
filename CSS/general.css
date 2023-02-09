@@ -9,22 +9,31 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 p {
   font-weight: bold;
-  font-size: medium;
+  font-size: 1em;
 }
 
 li {
+  font-size: 1em;
   font-weight: bold;
   display: list-item;
   margin-bottom: 10px;
+}
+
+button {
+  font-size: 1em;
+}
+
+select {
+  font-size: 1em;
 }
 
 .hideScrollBar::-webkit-scrollbar {
@@ -70,11 +79,6 @@ li {
 
 .listTitle {
   color: blueviolet;
-}
-
-.columnContent {
-  width: fit-content;
-  margin: 0px;
 }
 
 .reduceOpacity {

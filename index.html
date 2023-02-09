@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./CSS/index.css" />
     <script src="./JS/workExp.js"></script>
     <script src="./JS/headerScrollTo.js"></script>
+    <script src="./JS/displayProject.js"></script>
     <title>Kyle Duong</title>
   </head>
 
@@ -127,9 +128,6 @@
           id="projectCarosel"
           class="greenText greenBorder blackBackground hideScrollBar"
         >
-          <button id="leftArrow" class="greenText blackBackground arrows">
-            &lt;
-          </button>
           <div id="projectDropDown">
             <select
               title="project list"
@@ -138,21 +136,25 @@
               name="projectList"
             ></select>
           </div>
+          <button id="leftArrow" class="greenText blackBackground arrows">
+            &lt;
+          </button>
           <button id="rightArrow" class="greenText blackBackground arrows">
             &gt;
           </button>
         </div>
-        <div id="projectDescription">
+        <div id="projectDetails">
           <h3 id="projectTitle">Title</h3>
-          <p id="projectBlurb">Some blurb about the project would go here</p>
-          <div id="projectLinks"></div>
+          <p id="projectDesc">Some blurb about the project would go here</p>
+          <div id="projectTools"></div>
+          <div id="projectLink"></div>
         </div>
       </section>
     </main>
 
     <aside class="pushBottom sideNav" id="emailContact">
-      <a href="mailto:KyleDuong13@gmail.com" id="email"
-        >KyleDuong13@gmail.com
+      <a href="mailto:KyleDuong13@gmail.com" id="email">
+        KyleDuong13@gmail.com
       </a>
     </aside>
   </body>

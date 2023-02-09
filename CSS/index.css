@@ -1,7 +1,7 @@
 main {
   padding: 100px 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(40, 10vh);
+  grid-template-rows: repeat(36, 10vh);
   padding-bottom: 0;
   position: relative;
 }
@@ -93,6 +93,10 @@ aside {
 
 #projects {
   width: 90%;
+}
+
+#projectList {
+  border: none;
 }
 
 #projectCarosel {
