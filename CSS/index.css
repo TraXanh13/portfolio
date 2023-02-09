@@ -1,7 +1,7 @@
 main {
   padding: 100px 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(26, 10vh);
+  grid-template-rows: repeat(34, 10vh);
   padding-bottom: 0;
   position: relative;
 }
@@ -10,13 +10,20 @@ aside {
   z-index: 1;
 }
 
+.contentSize {
+  grid-row: span 8;
+}
+
+/* Introduction Section */
+
 #intro {
   margin: 0 auto;
   grid-row: 2/10;
 }
 
+/*  About Section */
+
 #aboutMe {
-  grid-row: span 8;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 50px;
@@ -42,9 +49,10 @@ aside {
   opacity: 0.8;
 }
 
+/* Experience Section */
+
 #experience {
-  width: 100%;
-  grid-row: span 8;
+  width: 90%;
 }
 
 #experienceHeader {
@@ -72,7 +80,7 @@ aside {
   border: 1px solid #1dbb0f;
   padding: 10px 50px;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   overflow-y: scroll;
 }
 
@@ -82,8 +90,76 @@ aside {
   color: white;
 }
 
-#experienceContent::-webkit-scrollbar {
-  display: none;
+/* Projects Section */
+
+#projects {
+  width: 90%;
+  grid-row: span 9;
+}
+
+#projectList {
+  border: none;
+}
+
+#projectCarosel {
+  position: relative;
+  border: 1px solid #1dbb0f;
+  padding: 10px 50px;
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projectDropDown {
+  position: absolute;
+  right: 1.5%;
+  border: none;
+}
+
+#projectLink {
+  margin-left: 0;
+  left: 0;
+  border: none;
+}
+
+#projectTools {
+  margin-top: 1em;
+  display: flex;
+}
+
+.toolCard {
+  margin-right: 1em;
+  padding: 0.5em;
+  border: 1px solid #1dbb0f;
+  border-radius: 20%;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  font-size: larger;
+  background-color: none;
+  border: none;
+}
+
+.arrows:hover {
+  opacity: 1;
+}
+
+#leftArrow {
+  left: 1.5%;
+}
+
+#rightArrow {
+  right: 1.5%;
+}
+
+#projectLink {
+  left: 0;
 }
 
 section #overview::after {

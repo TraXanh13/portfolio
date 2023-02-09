@@ -10,42 +10,67 @@
     <link rel="stylesheet" href="./CSS/index.css" />
     <script src="./JS/workExp.js"></script>
     <script src="./JS/headerScrollTo.js"></script>
+    <script src="./JS/projects.js"></script>
     <title>Kyle Duong</title>
   </head>
 
-  <body>
+  <body class="hideScrollBar">
     <header class="blackBackground">
       <a id="logo">&lt/><br />Kyle Duong</a>
       <nav>
         <a id="aboutScroll">About</a>
         <a id="experienceScroll">Experience</a>
+        <a id="projectScroll">Projects</a>
         <a href="resume.html" target="_blank">Resume</a>
       </nav>
     </header>
 
     <aside class="pushBottom sideNav">
-      <a class="socialMedia" href="https://github.com/TraXanh13" target="_blank"
-        ><img class="mediaLogo" src="images/githubLogo.png"
+      <a
+        rel="noopener noreferrer"
+        title="github"
+        class="socialMedia"
+        href="https://github.com/TraXanh13"
+        target="_blank"
+        ><img
+          title="github"
+          class="mediaLogo"
+          src="images/icons/githubLogo.png"
       /></a>
       <a
+        rel="noopener noreferrer"
+        title="linkedin"
         class="socialMedia"
         href="https://www.linkedin.com/in/kyle-m-duong/"
         target="_blank"
-        ><img class="mediaLogo" src="images/linkedinLogo.png"
+        ><img
+          title="linkedin"
+          class="mediaLogo"
+          src="images/icons/linkedinLogo.png"
       /></a>
       <a
+        rel="noopener noreferrer"
+        title="instagram"
         class="socialMedia"
         href="https://www.instagram.com/traxanh13/"
         target="_blank"
-        ><img class="mediaLogo" src="images/instaLogo.png"
+        ><img
+          title="instagram"
+          class="mediaLogo"
+          src="images/icons/instaLogo.png"
       /></a>
-      <a class="socialMedia" href="https://traxanh13.itch.io/" target="_blank"
-        ><img class="mediaLogo" src="images/itchio.png"
+      <a
+        rel="noopener noreferrer"
+        title="itch.io"
+        class="socialMedia"
+        href="https://traxanh13.itch.io/"
+        target="_blank"
+        ><img title="itch.io" class="mediaLogo" src="images/icons/itchio.png"
       /></a>
     </aside>
 
     <main>
-      <section id="intro">
+      <section id="intro" class="contentSize">
         <p>Hello, I am</p>
         <h1>Kyle Duong.</h1>
         <h2 class="reduceOpacity">Aspiring Software or Web Developer</h2>
@@ -60,7 +85,7 @@
         </p>
       </section>
 
-      <section id="aboutMe">
+      <section id="aboutMe" class="contentSize">
         <h2>About Me</h2>
         <article id="aboutMeBlurb">
           <p class="reduceOpacity">
@@ -85,10 +110,13 @@
             <li>C#</li>
           </ul>
         </article>
-        <img src="./images/chesterPic.jpg" />
+        <img
+          title="doggo projectLinks"
+          src="./images/personal-images/chesterPic.jpg"
+        />
       </section>
 
-      <section id="experience">
+      <section id="experience" class="contentSize">
         <h2>My Work Experiences</h2>
         <div id="experienceHeader">
           <button id="tree" class="greenText greenBorder blackBackground">
@@ -97,19 +125,44 @@
           <div id="lsBorder" class="greenText greenBorder blackBackground">
             <button id="ls" class="greenText blackBackground">Ls</button>
             <select
+              title="work experience"
               id="workExperience"
               class="greenText blackBackground"
             ></select>
           </div>
         </div>
-        <div id="experienceContent"></div>
+        <div id="experienceContent" class="hideScrollBar"></div>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div
+          id="projectCarosel"
+          class="greenText greenBorder blackBackground hideScrollBar"
+        >
+          <div id="projectDropDown">
+            <select
+              title="project list"
+              id="projectList"
+              class="greenText blackBackground"
+              name="projectList"
+            ></select>
+          </div>
+          <button id="leftArrow" class="greenText blackBackground arrows">
+            &lt;
+          </button>
+          <button id="rightArrow" class="greenText blackBackground arrows">
+            &gt;
+          </button>
+        </div>
+        <div id="projectDetails"></div>
       </section>
     </main>
 
     <aside class="pushBottom sideNav" id="emailContact">
-      <a href="mailto:KyleDuong13@gmail.com" id="email"
-        >KyleDuong13@gmail.com</a
-      >
+      <a href="mailto:KyleDuong13@gmail.com" id="email">
+        KyleDuong13@gmail.com
+      </a>
     </aside>
   </body>
 </html>
