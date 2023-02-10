@@ -34,11 +34,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    function createClickableJobLocation(job) {
+        
+    }
+    
     const jobLocation = document.querySelectorAll("jobLocation");
+
     // TODO: Hovering over the job location should show the job description
     jobLocation.forEach((job) => {
         console.log("created event listener for " + job)
-        job.addEventListener("hover", () => {
+        job.addEventListener("click", () => {
             console.log(`hovering over ${job}`);
         });
     });
