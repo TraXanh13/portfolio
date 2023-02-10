@@ -18,7 +18,7 @@
     {
         "id": 3,
         "project": "TraX-Bot - Discord Bot",
-        "description": "Hello",
+        "description": "TraX-Bot is a Discord bot made entirely to fulfill the requests of my friends. It is a multipurpose bot but its original purpose was to be a Reddit bot. Using the PRAW library, TraX-Bot can send random posts from any subreddit. Filtering NSFW content to only send to channels marked as NSFW.",
         "imageLocations": ["./images/project-images/bibbits-quest/itchio.png"],
         "link": "https://github.com/TraXanh13/TraX-Bot",
         "tools": ["Python", "Discord.py", "PRAW"]
