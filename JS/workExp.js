@@ -34,11 +34,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    const jobLocation = document.querySelectorAll("jobLocation");
+    // TODO: Hovering over the job location should show the job description
+    jobLocation.forEach((job) => {
+        console.log("created event listener for " + job)
+        job.addEventListener("hover", () => {
+            console.log(`hovering over ${job}`);
+        });
+    });
+    
     function clearWorkHistory() {
         let expContent = document.getElementById("experienceContent");
         expContent.innerHTML = "";
     }
-
+    
     function fillOptions() {
         let workExpMenu = document.getElementById("workExperience");
         
@@ -57,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
         article.classList.add("workExp");
         
         let jobLoc = document.createElement("h2");
+        jobLoc.className = "jobLocation";
         jobLoc.innerHTML = job.job;
 
         let jobTitle = document.createElement("h3");
