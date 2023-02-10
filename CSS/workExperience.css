@@ -1,0 +1,38 @@
+#experienceHeader {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+#viewBorder {
+  padding: 0;
+}
+
+#view {
+  border: 0;
+  border-right: 1px solid #1dbb0f;
+  margin: 0;
+}
+
+#workExperience {
+  border: none;
+  outline: 0;
+}
+
+#experienceContent {
+  border: 1px solid #1dbb0f;
+  padding: 10px 50px;
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+#view:active,
+#viewAll:active {
+  background-color: #1dbb0f;
+  color: white;
+}
+
+.workExp {
+  margin-bottom: 7em;
+}

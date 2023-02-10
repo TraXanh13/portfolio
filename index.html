@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="./CSS/header.css" />
     <link rel="stylesheet" href="./CSS/sideNav.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/aboutMe.css" />
+    <link rel="stylesheet" href="./CSS/projects.css" />
+    <link rel="stylesheet" href="./CSS/workExperience.css" />
     <script src="./JS/workExp.js"></script>
     <script src="./JS/headerScrollTo.js"></script>
     <script src="./JS/projects.js"></script>
     <title>Kyle Duong</title>
   </head>
 
-  <body class="hideScrollBar">
+  <body class="hideScrollBar blackBackground">
     <header class="blackBackground">
       <a id="logo">&lt/><br />Kyle Duong</a>
       <nav>
         <a id="aboutScroll">About</a>
-        <a id="experienceScroll">Experience</a>
         <a id="projectScroll">Projects</a>
+        <a id="experienceScroll">Experience</a>
         <a href="resume.html" target="_blank">Resume</a>
       </nav>
     </header>
@@ -116,38 +119,20 @@
         />
       </section>
 
-      <section id="experience" class="contentSize">
-        <h2>My Work Experiences</h2>
-        <div id="experienceHeader">
-          <button id="tree" class="greenText greenBorder blackBackground">
-            Tree
-          </button>
-          <div id="lsBorder" class="greenText greenBorder blackBackground">
-            <button id="ls" class="greenText blackBackground">Ls</button>
-            <select
-              title="work experience"
-              id="workExperience"
-              class="greenText blackBackground"
-            ></select>
-          </div>
-        </div>
-        <div id="experienceContent" class="hideScrollBar"></div>
-      </section>
-
       <section id="projects">
         <h2>My Projects</h2>
+        <div id="projectDropDown">
+          <select
+            title="project list"
+            id="projectList"
+            class="greenText blackBackground"
+            name="projectList"
+          ></select>
+        </div>
         <div
           id="projectCarosel"
           class="greenText greenBorder blackBackground hideScrollBar"
         >
-          <div id="projectDropDown">
-            <select
-              title="project list"
-              id="projectList"
-              class="greenText blackBackground"
-              name="projectList"
-            ></select>
-          </div>
           <button id="leftArrow" class="greenText blackBackground arrows">
             &lt;
           </button>
@@ -157,10 +142,35 @@
         </div>
         <div id="projectDetails"></div>
       </section>
+
+      <section id="experience" class="contentSize">
+        <h2>My Work Experiences</h2>
+        <div id="experienceHeader">
+          <div id="viewBorder" class="greenText greenBorder blackBackground">
+            <select
+              title="work experience"
+              id="workExperience"
+              class="greenText blackBackground"
+            ></select>
+          </div>
+          <button id="viewAll" class="greenText greenBorder blackBackground">
+            View All
+          </button>
+        </div>
+        <div id="experienceContent" class="hideScrollBar"></div>
+      </section>
+
+      <section id="contact" class="contentSize">
+        <h2>Contact Me</h2>
+        <p class="reduceOpacity greenText">
+          If you have any questions or would like to get in touch, feel free to
+          send me an email at
+          <a title="email" class="greenText" id="email" href="mailto:kyleduong13@gmail.com">KyleDuong13@gmail.com</a>
+        </p>
     </main>
 
     <aside class="pushBottom sideNav" id="emailContact">
-      <a href="mailto:KyleDuong13@gmail.com" id="email">
+      <a href="mailto:KyleDuong13@gmail.com" id="sideEmail">
         KyleDuong13@gmail.com
       </a>
     </aside>

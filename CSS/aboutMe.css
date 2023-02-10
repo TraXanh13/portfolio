@@ -1,0 +1,25 @@
+#aboutMe {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 50px;
+}
+
+#aboutMe h2 {
+  margin: 0;
+  grid-column: span 12;
+}
+
+#languageList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+#aboutMeBlurb {
+  grid-column: 1/8;
+}
+
+#aboutMe img {
+  grid-column: 8/12;
+  margin: 50px 50px;
+  opacity: 0.8;
+}
