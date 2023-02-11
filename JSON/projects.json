@@ -4,7 +4,7 @@
         "project": "Bibbits Quest",
         "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
         "imageLocations": ["./images/project-images/bibbits-quest/itchio.png"],
-        "link": "https://github.com/TraXanh13/Bibbits-Quest",
+        "link": "https://traxanh13.itch.io/bibbits-quest",
         "tools": ["Unity", "C#"]
     },
     {
