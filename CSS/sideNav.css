@@ -23,15 +23,20 @@
 
 #emailContact {
   transform: rotate(90deg);
-  right: 40px;
+  right: 50px;
+  color: white;
 }
 
-#email {
+#sideEmail {
   color: white;
   font-weight: bold;
   font-size: medium;
 }
 
-aside a:hover{
-    transform: scale(1.2);
+#sideEmail:hover {
+  color: #1dbb0f;
+}
+
+aside a:hover {
+  transform: scale(1.2);
 }
