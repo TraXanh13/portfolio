@@ -23,6 +23,11 @@ header {
   grid-row: span 8;
 }
 
+#aboutMeLink {
+  width: fit-content;
+    
+}
+
 #projects {
   width: 90%;
   grid-row: span 10;

@@ -87,3 +87,15 @@ select {
 .textEmphasis {
   color: lightgray;
 }
+
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+a h2 {
+  white-space: nowrap;
+}
