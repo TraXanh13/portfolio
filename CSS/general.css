@@ -1,5 +1,4 @@
 body {
-  background: #000c18;
   color: #1dbb0f;
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,10 +51,6 @@ select {
   background-color: #000c18;
 }
 
-.workExp {
-  margin-bottom: 2em;
-}
-
 .horzLine {
   border-top: 1px dotted #1dbb0f;
   width: 100%;
@@ -91,4 +86,16 @@ select {
 
 .textEmphasis {
   color: lightgray;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+a h2 {
+  white-space: nowrap;
 }

@@ -3,23 +3,23 @@
         "id": 1,
         "project": "Bibbits Quest",
         "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
-        "imageLocations": ["./images/project-images/bibbits-quest/itchio.png"],
-        "link": "https://github.com/TraXanh13/Bibbits-Quest",
+        "imageLocations": ["./images/project-images/bibbits-quest/titleScreen.png", "./images/project-images/bibbits-quest/tutorialLevel.png", "./images/project-images/bibbits-quest/SquishLevel.png"],
+        "link": "https://traxanh13.itch.io/bibbits-quest",
         "tools": ["Unity", "C#"]
     },
     {
         "id": 2,
         "project": "Beep Bop Bedop Bop",
         "description": "Beep Bop Bedop Bop is a platformer game working with the beat of the music. Each platform spawns on the mouse location to the beat of the music.",
-        "imageLocations": ["./images/project-images/beep-bop-bedop-bop/Player-Sheet.png"],
+        "imageLocations": ["./images/project-images/beep-bop-bedop-bop/bannerPhoto1.png", "./images/project-images/beep-bop-bedop-bop/Player-Sheet.png"],
         "link": "https://traxanh13.itch.io/beep-bop-bedop-bop",
         "tools": ["Unity", "C#"]
     },
     {
         "id": 3,
         "project": "TraX-Bot - Discord Bot",
-        "description": "Hello",
-        "imageLocations": ["./images/project-images/bibbits-quest/itchio.png"],
+        "description": "TraX-Bot is a Discord bot made entirely to fulfill the requests of my friends. It is a multipurpose bot but its original purpose was to be a Reddit bot. Using the PRAW library, TraX-Bot can send random posts from any subreddit. Filtering NSFW content to only send to channels marked as NSFW.",
+        "imageLocations": ["./images/project-images/TraX-Bot/TraX-Bot.png"],
         "link": "https://github.com/TraXanh13/TraX-Bot",
         "tools": ["Python", "Discord.py", "PRAW"]
     }

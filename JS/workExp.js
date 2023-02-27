@@ -12,18 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
             createWorkHistory(workExp[0]);
         });
 
-    const lsItem = document.getElementById("workExperience");
-    const treeButton = document.getElementById("tree");
+    const workExperience = document.getElementById("workExperience");
+    const viewAllButton = document.getElementById("viewAll");
     
-    treeButton.addEventListener("click", () => {
+    viewAllButton.addEventListener("click", () => {
         clearWorkHistory();
         for (const job of workExp) {
             createWorkHistory(job);
         }
     });
 
-    lsItem.addEventListener("change", () => {
-        let selectedJob = lsItem.value;
+    workExperience.addEventListener("change", () => {
+        let selectedJob = workExperience.value;
 
         for (job of workExp) {
             if(job.job ==  selectedJob){
@@ -34,11 +34,25 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    function createClickableJobLocation(job) {
+        
+    }
+    
+    const jobLocation = document.querySelectorAll("jobLocation");
+
+    // TODO: Hovering over the job location should show the job description
+    jobLocation.forEach((job) => {
+        console.log("created event listener for " + job)
+        job.addEventListener("click", () => {
+            console.log(`hovering over ${job}`);
+        });
+    });
+    
     function clearWorkHistory() {
         let expContent = document.getElementById("experienceContent");
         expContent.innerHTML = "";
     }
-
+    
     function fillOptions() {
         let workExpMenu = document.getElementById("workExperience");
         
@@ -54,8 +68,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function createWorkHistory(job){
         let expContent = document.getElementById("experienceContent");
         let article = document.createElement("article");
+        article.classList.add("workExp");
         
         let jobLoc = document.createElement("h2");
+        jobLoc.className = "jobLocation";
         jobLoc.innerHTML = job.job;
 
         let jobTitle = document.createElement("h3");

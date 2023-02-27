@@ -1,6 +1,7 @@
 [
     {
         "job": "Academic Development Center - Mount Royal University",
+        "jobBrief": "MRU Academic Development Center promtes excellence in teaching and learning by providing a range of services to faculty and staff. The center provides a variety of services to support the development of teaching and learning at MRU. Some support services include the use of technologies, curriculumn setup in the D2L learning management software system, ",
         "title": "D2L Migration Support Analyst",
         "length": "December 14, 2022 - Present",
         "tasks":["Provided support to faculty and students in the transition to D2L Brightspace",
@@ -9,7 +10,8 @@
             "Assist and educate professors with external applications such as Google Calendar and Microsoft 365 applications"]
     },
     {
-        "job": "Costco",
+        "job": "Costco Wholesale",
+        "jobBrief": "Costco is a membership warehouse club, dedicated to bringing their members the best possible prices on quality brand-name merchandise. With more than 700 warehouses, Costco provides a wide selection of merchandise, plus the convenience of specialty departments and exclusive member services, all designed to make your shopping experience a pleasurable one.",
         "title": "Tire Installer",
         "length": "July 30, 2022 - January 10, 2023",
         "tasks":["Completed assigned service for up to 5 vehicles within an hour",
@@ -18,9 +20,10 @@
             "Communicated with customers to ensure they were aware of the process and time it would take",
             "Completed tasks in a timely manner to ensure the customer was not waiting",
             "Used tire shop equipment in a safe manner while maintaining a clean work environment"]
-    },
+        },
     {
         "job": "Ghost Armor - Crossiron Mills",
+        "jobBrief": "Ghost Armor is a manufacturer, distributor, and reseller of electronic protection products. The company offers screen protectors and cases for electronic devices such as smartphones, tablets, laptops and handheld consoles.",
         "title": "Sales Associate",
         "length": "June 14, 2022 - September 11, 2022",
         "tasks":["Provided exceptional customer service to customers in store and over the phone",
@@ -32,6 +35,7 @@
     },
     {
         "job": "Code Ninjas",
+        "jobBrief": "Code Ninjas is a coding and STEM education franchise that teaches kids ages 7-14 how to code through fun, game-based lessons. Code Ninjas offers a variety of programs, including after-school classes, birthday parties, camps, and more.",
         "title": "Sensei",
         "length": "January 5, 2022 - June 17, 2022",
         "tasks":["Taught and supervised classrooms of up to 16 kids at a time",
@@ -40,18 +44,20 @@
             "Created a systems analysis of all organizational emails and how they connect to current systems in place",
             "Extracted customer data and plans to cleanse and visualize information through power bi",
             "Created transactions and scripts through onflow blockchain"]
-    },
+        },
     {
         "job": "Centennial Foodservice",
+        "jobBrief": "Centennial Foodservice is a foodservice distributor that provides a wide range of products and services to the foodservice industry. The company offers a variety of products, including meat, seafood, dairy, produce, frozen foods, and more.",
         "title": "Order Assembler",
         "length": "February 15, 2021 - August 13, 2021",
         "tasks":["Organized orders and quality control to ensure time was spent efficiently Independently analyze orders and locate products to be delivered",
             "Ensured products are up to standards and customers received the correct items along with any specific instructions"]
-    },
-    {
-        "job": "Costco",
-        "title": "Night Stocker",
-        "length": "May 23, 2018 - April 16, 2021",
+        },
+        {
+            "job": "Costco Wholesale",
+            "jobBrief": "Costco is a membership warehouse club, dedicated to bringing their members the best possible prices on quality brand-name merchandise. With more than 700 warehouses, Costco provides a wide selection of merchandise, plus the convenience of specialty departments and exclusive member services, all designed to make your shopping experience a pleasurable one.",
+            "title": "Night Stocker",
+            "length": "May 23, 2018 - April 16, 2021",
         "tasks":["Organized, planned, and rearranged new merchandise to display every product for the following day",
             "Provided exceptional customer assistance in locating items either in this location or in another",
             "Committed to ensuring the task is done before the shift ends",
@@ -59,6 +65,7 @@
     },
     {
         "job": "Enerje Café",
+        "jobBrief": "Enerje Café was a local bubble tea and wings shop that provides a variety of (non alcoholic) drinks and food options to the community.",
         "title": "Server/Barista",
         "length": "August 2017 - December 2017",
         "tasks":["Utilizing a strong organizational ability to serve a minimum of five tables at once",
@@ -68,6 +75,7 @@
     },
     {
         "job": "Pho Kim",
+        "jobBrief": "Pho Kim is a local Vietnamese restaurant that provides a variety of vietnamese food options to the community.",
         "title": "Server",
         "length": "July 2017 - September 2017",
         "tasks":["Hosted customers by greeting, seating, and taking initial drink orders",
