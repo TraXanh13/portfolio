@@ -184,3 +184,13 @@ section #overview::after {
     background: #000c18;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  main {
+    grid-template-rows: repeat(40, 10vh);
+  }
+
+  .contentSize {
+    grid-row: span 9;
+  }
+}
