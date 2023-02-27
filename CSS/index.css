@@ -24,8 +24,7 @@ header {
 }
 
 #aboutMeLink {
-  width: fit-content;
-    
+  /* width: fit-content; */
 }
 
 #projects {
@@ -40,7 +39,7 @@ header {
 
 #email {
   text-decoration: underline;
-  text-emphasis: bold;
+  /* text-emphasis: bold; */
   font-size: 1em;
   color: #1dbb0f;
   margin: 0;
