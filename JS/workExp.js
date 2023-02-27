@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     viewAllButton.addEventListener("click", () => {
         clearWorkHistory();
         for (const job of workExp) {
-            createWorkHistory(job);
+            createWorkHistory(job, true);
         }
     });
 
@@ -32,20 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             }
         }
-    });
-
-    function createClickableJobLocation(job) {
-        
-    }
-    
-    const jobLocation = document.querySelectorAll("jobLocation");
-
-    // TODO: Hovering over the job location should show the job description
-    jobLocation.forEach((job) => {
-        console.log("created event listener for " + job)
-        job.addEventListener("click", () => {
-            console.log(`hovering over ${job}`);
-        });
     });
     
     function clearWorkHistory() {
@@ -65,10 +51,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    function createWorkHistory(job){
+    function createWorkHistory(job, viewAll=false){
         let expContent = document.getElementById("experienceContent");
         let article = document.createElement("article");
-        article.classList.add("workExp");
+        if(viewAll) {
+            
+            article.classList.add("workExpBottomMargin");
+        }
         
         let jobLoc = document.createElement("h2");
         jobLoc.className = "jobLocation";
