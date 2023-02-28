@@ -96,6 +96,11 @@ select {
   margin: 0;
 }
 
+.scrollMargins {
+  margin-top: 10vh;
+  padding-top: 10vh;
+}
+
 a h2 {
   white-space: nowrap;
 }

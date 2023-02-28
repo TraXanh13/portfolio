@@ -14,13 +14,13 @@ header {
   background-color: none;
 }
 
+.contentSize {
+  grid-row: span 8;
+}
+
 #intro {
   margin: 0 auto;
   grid-row: 2/10;
-}
-
-#aboutMe {
-  grid-row: span 8;
 }
 
 #projects {
@@ -30,7 +30,6 @@ header {
 
 #experience {
   width: 90%;
-  grid-row: span 8;
 }
 
 #contact {
@@ -74,15 +73,5 @@ section #overview::after {
 
   100% {
     background: #000c18;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  main {
-    grid-template-rows: repeat(40, 10vh);
-  }
-
-  .contentSize {
-    grid-row: span 9;
   }
 }

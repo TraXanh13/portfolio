@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function scrollContentIntoView(element) {
-        element.scrollIntoView({behavior: "smooth", block: "end"});
+        element.scrollIntoView({behavior: "smooth", block: "start"});
     }
 });
