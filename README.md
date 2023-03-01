@@ -10,4 +10,4 @@ My Portfolio site
 - JSON
 
 ## Authors 🎓
-- @TraXanh13
+- [@TraXanh13](https://github.com/TraXanh13)
