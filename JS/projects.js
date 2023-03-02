@@ -29,8 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
         let projectTitle = document.createElement("h2");
         let projectDesc = document.createElement("p");
         let projectLink = createLink(project);
-        
-        projectCarosel.style.backgroundImage = `url(${project.imageLocations[Math.floor(Math.random() * (project.imageLocations.length))]})`;
+        let img = `url(${project.imageLocations[Math.floor(Math.random() * (project.imageLocations.length))]})`;
+
+        projectCarosel.style.backgroundImage = img;
         projectTitle.innerHTML = project.project;
         projectDesc.innerHTML = project.description;
 
