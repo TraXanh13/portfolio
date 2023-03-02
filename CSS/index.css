@@ -24,12 +24,7 @@ header {
 }
 
 #projects {
-  width: 90%;
   grid-row: span 10;
-}
-
-#experience {
-  width: 90%;
 }
 
 #contact {
