@@ -1,6 +1,12 @@
 [
     {
-        "id": 1,
+        "project": "Survive",
+        "description": "Created during the Brackey's 1 week game jam. The theme for the jam was \"An End is a new Beginning\".My main focus for this project was the art and assets while also providing some assistance with the code. The game is a 2D top down shooter where the player must fight off slimes and survive as long as possible. On each death, the player's character is swapped to another class.",
+        "imageLocations": ["./images/project-images/survive/Meteor_Contact.gif", "./images/project-images/survive/Wind-Barrier.gif", "./images/project-images/survive/SlimeMovement.png", "./images/project-images/survive/Exploding-Arrow.gif"],
+        "link": "https://traxanh13.itch.io/brackeys-game-jam-jan-2023",
+        "tools": ["Unity", "C#", "Aseprite"]
+    },
+    {
         "project": "Bibbits Quest",
         "description": "Created for a game development class project, Bibbit's Quest was inspired by party games based off of a series of mini games. Bibbit's Quests follows a frog venturing through different levels consisting of different genres of games.",
         "imageLocations": ["./images/project-images/bibbits-quest/titleScreen.png", "./images/project-images/bibbits-quest/tutorialLevel.png", "./images/project-images/bibbits-quest/SquishLevel.png"],
@@ -8,7 +14,6 @@
         "tools": ["Unity", "C#"]
     },
     {
-        "id": 2,
         "project": "Beep Bop Bedop Bop",
         "description": "Beep Bop Bedop Bop is a platformer game working with the beat of the music. Each platform spawns on the mouse location to the beat of the music.",
         "imageLocations": ["./images/project-images/beep-bop-bedop-bop/bannerPhoto1.png", "./images/project-images/beep-bop-bedop-bop/Player-Sheet.png"],
@@ -16,7 +21,6 @@
         "tools": ["Unity", "C#"]
     },
     {
-        "id": 3,
         "project": "TraX-Bot - Discord Bot",
         "description": "TraX-Bot is a Discord bot made entirely to fulfill the requests of my friends. It is a multipurpose bot but its original purpose was to be a Reddit bot. Using the PRAW library, TraX-Bot can send random posts from any subreddit. Filtering NSFW content to only send to channels marked as NSFW.",
         "imageLocations": ["./images/project-images/TraX-Bot/TraX-Bot.png"],
