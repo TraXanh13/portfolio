@@ -106,23 +106,22 @@ section #overview::after {
 
   main {
     padding: 10vh 10% 0px 10%;
-    grid-template-rows: repeat(50, 10vh);
+    grid-template-rows: repeat(53, 10vh);
   }
 
   section {
     width: 100%;
-    overflow-y: scroll;
     overflow-wrap: break-word;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   #intro {
     margin: 0 auto;
-    grid-row: span 12;
+    grid-row: span 11;
   }
 
   .contentSize {
-    grid-row: span 12;
+    grid-row: span 13;
   }
 
   #aboutMeBlurb {
