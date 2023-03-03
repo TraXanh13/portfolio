@@ -109,6 +109,10 @@ section #overview::after {
     grid-template-rows: repeat(43, 10vh);
   }
 
+  section {
+    overflow-y: scroll;
+  }
+
   .contentSize {
     grid-row: span 10;
   }
