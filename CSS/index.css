@@ -106,7 +106,7 @@ section #overview::after {
 
   main {
     padding: 10vh 10% 0px 10%;
-    grid-template-rows: repeat(53, 10vh);
+    grid-template-rows: repeat(54, 10vh);
   }
 
   section {
