@@ -146,4 +146,8 @@ section #overview::after {
     position: relative;
     margin: auto;
   }
+
+  #email {
+    overflow: visible;
+  }
 }
