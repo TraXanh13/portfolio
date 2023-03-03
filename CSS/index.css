@@ -147,6 +147,10 @@ section #overview::after {
     margin: auto;
   }
 
+  #contact {
+    grid-row: span 5;
+  }
+
   #email {
     overflow: visible;
   }
