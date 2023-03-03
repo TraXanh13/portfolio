@@ -40,7 +40,7 @@ select {
 }
 
 .greenText {
-  color: #1dbb0f;
+  color: inherit;
 }
 
 .greenBorder {
@@ -72,10 +72,6 @@ select {
   border-left: 1px solid #1dbb0f;
 }
 
-.listTitle {
-  color: blueviolet;
-}
-
 .reduceOpacity {
   opacity: 0.9;
 }
@@ -103,4 +99,10 @@ select {
 
 a h2 {
   white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .leftTab {
+    margin-left: 0;
+  }
 }

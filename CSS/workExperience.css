@@ -43,3 +43,28 @@
 .workExpBottomMargin {
   margin-bottom: 5em;
 }
+
+@media screen and (max-width: 768px) {
+  #experienceHeader {
+    flex-wrap: wrap;
+  }
+
+  #viewBorder {
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  #workExperience {
+    width: 100%;
+    display: block;
+  }
+
+  #experienceContent {
+    width: 99%;
+    height: 70%;
+  }
+
+  #experienceContent article {
+    padding: 5px 20px;
+  }
+}
