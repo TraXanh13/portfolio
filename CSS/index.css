@@ -1,7 +1,6 @@
 main {
   padding: 10vh 20% 0px 20%;
   display: grid;
-  grid-template-rows: repeat(39, 10vh);
   padding-bottom: 0;
   position: relative;
 }
@@ -10,27 +9,22 @@ aside {
   z-index: 1;
 }
 
+section {
+  margin-bottom: 20vh;
+}
+
 header {
   background-color: none;
   opacity: 0.8;
 }
 
-.contentSize {
-  grid-row: span 9;
-}
-
 #intro {
   margin: 0 auto;
-  grid-row: 2/10;
-}
-
-#projects {
-  grid-row: span 10;
 }
 
 #contact {
-  grid-row: span 3;
   line-height: 2em;
+  margin: 5vh 0;
 }
 
 /* About Me Section */
@@ -38,7 +32,6 @@ header {
 #aboutMe {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  /* grid-auto-rows: 50px; */
 }
 
 #aboutMe h2 {
@@ -56,9 +49,11 @@ header {
 }
 
 #aboutMe img {
-  grid-column: span 4;
-  margin: 50px 50px;
+  grid-column: 10/13;
+  width: 100%;
+  height: 100%;
   opacity: 0.8;
+  object-fit: contain;
 }
 
 #email {
@@ -106,22 +101,18 @@ section #overview::after {
 
   main {
     padding: 10vh 10% 0px 10%;
-    grid-template-rows: repeat(55, 10vh);
   }
 
   section {
-    width: 100%;
+    width: 99%;
     overflow-wrap: break-word;
     overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 5vh;
   }
 
   #intro {
     margin: 0 auto;
-    grid-row: span 11;
-  }
-
-  .contentSize {
-    grid-row: span 13;
   }
 
   #aboutMeBlurb {
@@ -145,10 +136,6 @@ section #overview::after {
     grid-column: span 12;
     position: relative;
     margin: auto;
-  }
-
-  #contact {
-    grid-row: span 5;
   }
 
   #email {
