@@ -3,7 +3,7 @@
         "project": "Survive",
         "description": "Created during the Brackey's 1 week game jam. The theme for the jam was \"An End is a new Beginning\".My main focus for this project was the art and assets while also providing some assistance with the code. The game is a 2D top down shooter where the player must fight off slimes and survive as long as possible. On each death, the player's character is swapped to another class.",
         "imageLocations": ["./images/project-images/survive/Meteor_Contact.gif", "./images/project-images/survive/Wind-Barrier.gif", "./images/project-images/survive/SlimeMovement.png", "./images/project-images/survive/Exploding-Arrow.gif"],
-        "link": "https://traxanh13.itch.io/brackeys-game-jam-jan-2023",
+        "link": "https://traxanh13.itch.io/brackeys-game-jam-20231",
         "tools": ["Unity", "C#", "Aseprite"]
     },
     {
