@@ -1,13 +1,21 @@
 [
     {
+        "job": "EECOL Electric",
+        "jobBrief": "EECOL Electric is a distributor of electrical equipment and supplies. The company offers a variety of products, including lighting, automation, power distribution, and more.",
+        "title": "IT Support Analyst",
+        "length": "June 2023 - Present",
+        "tasks":["Showcased exceptional communication skills by collaborating with diverse stakeholders, translating technical concepts into easily understandable terms, and building strong working relationships.",
+            "Collaborated seamlessly with team members and business partners to effectively manage, provision, maintain, and decommission a variety of computing hardware and software resources."]
+    },
+    {
         "job": "Academic Development Center - Mount Royal University",
         "jobBrief": "MRU Academic Development Center promtes excellence in teaching and learning by providing a range of services to faculty and staff. The center provides a variety of services to support the development of teaching and learning at MRU. Some support services include the use of technologies, curriculumn setup in the D2L learning management software system, ",
         "title": "D2L Migration Support Analyst",
         "length": "December 2022 - Present",
-        "tasks":["Provided support to faculty and students in the transition to D2L Brightspace",
+        "tasks":["Educate faculty and students on the functions of D2L for the transition from BlackBoard",
+            "Documented existing procedures, meticulously analyzing and identifying potential areas for process enhancement, resulting in improved ease of use and overall operational efficiency.",
             "Resolved +20 tickets and in-person visits a day through effective communication and troubleshooting issues by thoroughly checking course shell settings and file associations.",
-            "Educate faculty and students on the functions of D2L for the transition from BlackBoard",
-            "Assist and educate professors with external applications such as Google Calendar and Microsoft 365 applications"]
+            "Took full ownership of trouble tickets, demonstrating a proactive approach to problem-solving by diagnosing, troubleshooting, and resolving issues independently, or escalating to relevant internal teams when required."]
     },
     {
         "job": "Costco Wholesale",
