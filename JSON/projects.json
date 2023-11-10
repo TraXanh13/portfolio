@@ -1,5 +1,12 @@
 [
     {
+        "project": "Local Wellness Massage Site",
+        "description": "Created a website to attract and service clients. The site conveys a sense of professionalism while offering clients a convienient platform to learn about the services and schedule appointments.",
+        "imageLocations": ["./images/project-images/localwellnessmassage/heroImage.png", "./images/project-images/localwellnessmassage/services.png"],
+        "link": "www.localwellnessmassage.com",
+        "tools": ["GoDaddy"]
+    },
+    {
         "project": "Survive",
         "description": "Created during the Brackey's 1 week game jam. The theme for the jam was \"An End is a new Beginning\".My main focus for this project was the art and assets while also providing some assistance with the code. The game is a 2D top down shooter where the player must fight off slimes and survive as long as possible. On each death, the player's character is swapped to another class.",
         "imageLocations": ["./images/project-images/survive/Meteor_Contact.gif", "./images/project-images/survive/Wind-Barrier.gif", "./images/project-images/survive/SlimeMovement.png", "./images/project-images/survive/Exploding-Arrow.gif"],
