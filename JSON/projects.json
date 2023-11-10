@@ -3,7 +3,7 @@
         "project": "Local Wellness Massage Site",
         "description": "Created a website to attract and service clients. The site conveys a sense of professionalism while offering clients a convienient platform to learn about the services and schedule appointments.",
         "imageLocations": ["./images/project-images/localwellnessmassage/heroImage.png", "./images/project-images/localwellnessmassage/services.png"],
-        "link": "www.localwellnessmassage.com",
+        "link": "https://localwellnessmassage.com/",
         "tools": ["GoDaddy", "Site Builder", "Appointment Scheduler"]
     },
     {
